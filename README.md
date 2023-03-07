@@ -28,6 +28,17 @@ Add `react-strict-hooks` to the plugins section of your `.eslintrc` configuratio
 }
 ```
 
+Make sure that [type checking in eslint](https://typescript-eslint.io/custom-rules/#typed-rules) is enabled
+
+```javascript
+{
+  parserOptions: {
+    project: './tsconfig.json',
+    tsconfigRootDir: __dirname
+  }
+}
+```
+
 
 Then configure the rules you want to use under the rules section.
 

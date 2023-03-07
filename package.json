@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-react-strict-hooks",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Plugin for enforcing stricter rules on react hooks",
   "keywords": [
     "eslint",

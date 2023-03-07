@@ -2,7 +2,7 @@ import {ESLintUtils, TSESTree} from '@typescript-eslint/utils';
 import * as ts from 'typescript';
 import * as tsutils from 'tsutils';
 
-const createRule = ESLintUtils.RuleCreator(name => `https://example.com/rule/${name}`);
+const createRule = ESLintUtils.RuleCreator(name => `https://github.com/Ansile/eslint-plugin-react-strict-hooks/tree/main/docs/rules/${name}`);
 
 function isDefinedInReactTypesLib(typeSymbol: ts.Symbol) {
    return typeSymbol?.getDeclarations()?.[0]?.getSourceFile().fileName;
@@ -38,7 +38,7 @@ function isEffectFnCall(call: TSESTree.CallExpression) {
 }
 
 export default createRule({
-    name: 'no-setstate-in-useffect',
+    name: 'no-useeffect-misuse',
     create(context, optionsWithDefault) {
         return {
             CallExpression(call) {

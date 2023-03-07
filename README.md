@@ -42,7 +42,11 @@ Then configure the rules you want to use under the rules section.
 ## Rules
 
 <!-- begin auto-generated rules list -->
-TODO: Run eslint-doc-generator to generate the rules list.
+
+| Name                                                     |
+| :------------------------------------------------------- |
+| [no-useeffect-misuse](docs/rules/no-useeffect-misuse.md) |
+
 <!-- end auto-generated rules list -->
 
 

@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "classic",
+    "module": "commonjs"
+  },
+  "files": ["estree.ts"]
+}

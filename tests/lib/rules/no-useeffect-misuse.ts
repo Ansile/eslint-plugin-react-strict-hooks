@@ -1,4 +1,4 @@
-import rule from '../../../lib/rules/no-setstate-in-useffect';
+import rule from '../../../lib/rules/no-useffect-misuse';
 import * as fs from "fs";
 import * as path from "path";
 import {ruleTester} from "../../ruleTester";

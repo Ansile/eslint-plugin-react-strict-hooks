@@ -1,1 +1,1 @@
-import './lib/rules/no-setstate-in-useffect';
+import './lib/rules/no-useeffect-misuse';

@@ -72,10 +72,6 @@ export default createRule({
                     node: call,
                     messageId: 'noSetStateCall'
                 });
-
-                // const nodeType2 = checker.typeToTypeNode(nodeType);
-                // tsutils.getT
-                // console.log({nodeType, name: checker.typeToString(nodeType), props: (nodeType as any).checker.getAllPossiblePropertiesOfTypes(nodeType)});
             }
         };
     },
@@ -86,7 +82,7 @@ export default createRule({
             recommended: "error",
         },
         messages: {
-            noSetStateCall: 'Instead of calling setState in useEffect, consider ...'
+            noSetStateCall: 'Instead of calling setState in useEffect, consider refactoring to direct computation with useMemo'
         },
         type: 'suggestion',
         schema: [],
